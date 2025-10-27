@@ -12,6 +12,9 @@ services:
       - db
     networks:
       - moodle-net
+    environment:
+      MOODLE_DOCKER_DBTYPE: pgsql
+      MOODLE_DOCKER_DBHOST: db 
 
   db:
     image: postgres:15
