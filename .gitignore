@@ -1,0 +1,13 @@
+moodledata/
+
+moodle-db/
+moodle-db-data/
+
+.DS_Store
+*.log
+.vscode/
+
+/vendor/
+/moodle/vendor/
+/node_modules/
+/moodle/node_modules/
