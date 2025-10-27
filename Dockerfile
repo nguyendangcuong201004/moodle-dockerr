@@ -1,6 +1,7 @@
 # Image PHP/Apache MoodleHQ
 FROM moodlehq/moodle-php-apache:8.3
 
+RUN docker-php-ext-install pdo_pgsql pgsql
 
 # ARG instruction pass variable build-time
 ARG DEBIAN_FRONTEND=noninteractive
