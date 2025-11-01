@@ -11,3 +11,6 @@ moodle-db-data/
 /moodle/vendor/
 /node_modules/
 /moodle/node_modules/
+
+
+/moodle/config.php
